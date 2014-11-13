@@ -37,12 +37,16 @@
   </nav>
 
   <div class="container">
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
-      †
-      <div class="camel-template">
-        <%= yield %>
-      </div>
+    <div class="camel-template">
+      <% flash.each do |type, message| %>
+        <div class="alert <%= flash_class type %> alert-dismissible" role="alert">
+          <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <%= message %>
+        </div
+      <% end %>
+
+      <%= yield %>
+    </div>
   </div>
 
 </body>
