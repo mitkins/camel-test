@@ -5,3 +5,9 @@ hamish:
   profile_name: "Camel"
   #password: "password"
   #password_confirmation: "password"
+
+bob:
+  first_name: "Bob"
+  last_name: "Bob"
+  email: "bobbob@gmail.com"
+  profile_name: "bob"

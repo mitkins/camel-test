@@ -7,3 +7,11 @@ one:
 two:
   content: MyText
   user: hamish
+
+three:
+  content: MyText
+  user: bob
+
+four:
+  content: MyText
+  user: bob

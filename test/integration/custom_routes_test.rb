@@ -16,4 +16,9 @@ class CustomRoutesTest < ActionDispatch::IntegrationTest
     get 'register'
     assert_response :success
   end
+
+  test "taht a profile page works " do
+    get '/Camel'
+    assert_response :success
+  end
 end
