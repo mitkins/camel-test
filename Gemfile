@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'devise'
 gem 'simple_form'
+gem 'bootstrap-sass', '~> 3.3.1'
+gem 'autoprefixer-rails'
 
 group :development, :test do
   gem 'sqlite3'
